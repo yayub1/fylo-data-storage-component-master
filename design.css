@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: Raleway;
+
+}
+
+
+.main{
+    width: 1440px;
+    height: 800px;
+    background-color: hsl(228, 56%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+ 
+   
+
+    
+}
+.fylo{
+    width: 354px;
+    height: 203px;
+    background-color:   hsl(229, 57%, 11%);
+
+    justify-content: center;
+    flex-direction: row;
+    z-index: 1;
+
+
+   
+
+
+
+    border-top-right-radius: 130px;
+}
+.da{
+    width: 540px;
+    height: 158px;
+    background-color: hsl(229, 57%, 11%);
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    border-radius: 10px;
+    z-index: 1;
+
+}
+.log{
+    width: 197px;
+    height: 92px;
+    background-color: white;
+    margin-top: -130px;
+    margin-left: -280px;
+    border-radius: 15px;
+    border-bottom-right-radius: 30px;
+    z-index: 1;
+
+
+}
+.log:after{
+    content: "";
+    background-color: red;
+    position: relative;
+    left: 400px;
+    top: 400px;
+   
+}
+.im1{
+    background-color: hsl(228, 56%, 26%);
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.im2{
+    background-color: hsl(228, 56%, 26%);
+    width: 50px;
+    height: 45px;
+    margin-left: 90px;
+    margin-top: -45px;
+
+}
+.im3{
+    background-color: hsl(228, 56%, 26%);
+    width: 50px;
+    height: 45px;
+    margin-left: 150px;
+    margin-top: -45px;
+
+
+}
+p{
+    color: azure;
+    font-size: 14px;
+}
+.lo1{
+
+    width: 450px;
+    height: 10px;
+    background-color: hsl(228, 56%, 26%);
+    margin-left: 40px;
+    margin-top: -15px;
+    border-radius: 15px;
+}
+.lo2{
+    width: 350px;
+    height: 10px;
+    background: linear-gradient( hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+    margin-left: 40px;
+    margin-top: -10px;
+    border-radius: 15px;
+
+}
+
+    
+
+
+@media screen and (min-width: 375);{
+    .main{
+        width: 330px;
+        height: 667px;
+    }}
+
+
+    
